@@ -29,8 +29,6 @@ build/
 local.properties
 *.iml
 *.hprof
-android
-ios
 
 # node.js
 #
