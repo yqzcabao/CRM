@@ -53,9 +53,9 @@ const CompanyItem = props => {
           )}
         />
         <Card.Content>
-          {props.companies.names.map(name => {
+          {props.companies.names.map((name, key) => {
             return (
-              <Text style={styles.employeeName}>
+              <Text style={styles.employeeName} key={key}>
                 {name.firstName} {name.lastName}
               </Text>
             );
